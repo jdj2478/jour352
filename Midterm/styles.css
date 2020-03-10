@@ -1,0 +1,66 @@
+#content{
+  margin: 0 auto;
+  width: 740px;
+}
+/* I used this Headings id to make my headline, byline and dateline text centered*/ 
+
+#headings{
+  text-align: center;
+}
+
+
+h1{
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2{
+  font-family: 'Noto Serif', serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  font-size: 16px;
+}
+
+h4{
+  font-family: 'Open Sans' , sans-serif;
+  color: gray;
+  font-size: 14px;
+}
+
+
+h5{
+  font-family: 'Open Sans' , sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+body, p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p.a {
+  font-family: Helvetica;
+}
+
+p.b {
+  font-family: Arial;
+}
+
+p.c{
+  font-family: sans-serif;
+}
+
+blockquote{
+  font: 20px/30px sans-serif;
+  color: brown;
+  font-weight: bold;
+  font-style: italic;
+}
