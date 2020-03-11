@@ -1,0 +1,37 @@
+#box1{
+  height: 100px;
+  background-color: #F5C6D6;
+  margin: 10px;
+}
+
+.container1{
+  background-color: #EE2E84;
+  min-height: 200px;
+  flex-grow: 1;
+  margin: 10px 10px;
+  justify-content: flex-start;
+}
+
+.pink div:first-child{
+  margin-left: 0;
+}
+.pink div:last-child{
+  margin-right: 0;
+}
+
+.container2{
+  background-color: #;
+  min-height: 200px;
+  flex-grow: 1;
+  margin: 10px 10px;
+  justify-content: flex-start;
+}
+
+.containter2 div{
+}
+
+.container3{
+}
+
+.container3 div{
+}
