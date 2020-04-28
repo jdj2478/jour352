@@ -1,0 +1,227 @@
+p {
+  font-family: 'DM_Serif_Text', serif;
+  font-size: 20px;
+}
+
+.nav {
+  background-color: #000000;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  color: #FFF01C;
+  text-align: center;
+  padding: 75px 150px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+.style body html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("profesh.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF01C;
+  font-family: 'Open_Sans_Condensed', sans-serif;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: red;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h4 {
+font-weight: bold;
+font-size: 15px;
+}
+
+h5 {
+  font-weight: bold;
+  font-style: italic;
+font-size: 10px;
+}
+
+.editor-container {
+background-color: #D3D3D3;
+}
+
+#description p {
+  text-align: center;
+  font-family: 'DM_Serif_Text', serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+#description {
+text-align: center;
+border: solid 1px #000000;
+padding: 10px;
+}
+
+#education {
+text-align: center;
+border: solid 1px #000000;
+padding: 10px;
+}
+
+#Experience {
+text-align: center;
+}
+
+#skills {
+  text-align: center;
+  align-items: center;
+}
+
+.skills-container {
+  background-color: #D3D3D3;
+  display: block;
+}
+
+.socials {
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.socials ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-content: center;
+  background-color: #000000;
+}
+
+.socials li {
+  float: right;
+}
+
+.socials li a {
+  display: inline-flex;
+  color: #40F559;
+  text-align: center;
+  align-items: center;
+  padding: 25px 100px;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.flex2-container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container img {
+  border: 5px solid #F52A11;
+  height: 300px;
+  width: 70%;
+  align-items: center;
+  text-align: center;
+  float: left;
+}
+
+.flex2-container img {
+  border: 5px solid #F52A11;
+  height: 300px;
+  width: 70%;
+  align-content: center;
+  text-align: center;
+  float: left;
+}
+
+.clip img {
+  border: 5px solid #F52A11;
+  height: 500px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.clip p {
+  text-align: center;
+}
+
+.bio p {
+font-family:'DM_Serif_Text', serif;
+text-align: center;
+letter-spacing: 1px;
+font-style: normal;
+font-weight: bolder;
+padding: 10px;
+margin: 50px;
+color: #1F2AFF;
+border: solid 5px #000000;
+}
+
+.email {
+  font-family: 'Open_Sans_Condensed', sans-serif;
+  background-color: #FFF01C;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  padding: 10px;
+  color: #000000;
+}
